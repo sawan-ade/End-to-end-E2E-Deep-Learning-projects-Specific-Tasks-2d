@@ -51,7 +51,7 @@ Linear(128→64) → ReLU → Dropout(0.3) → Linear(64→1)
 The loss came down from 0.822 to 0.757. Train and val stayed close throughout
 which means the encoder generalised well to unseen event frames.
 
-![ae curve](assets/ae_training_curve.png)
+![ae curve](assets/ae_loss_curve.png)
 
 ### Classifier fine-tuning — 30 epochs
 
